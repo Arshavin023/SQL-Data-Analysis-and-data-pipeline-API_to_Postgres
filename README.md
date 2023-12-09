@@ -24,8 +24,8 @@
 9. Open Docker-Desktop, confirm is images are running. If yes, navigate to containers and access the airflow UI through the provided URL with port: 8080:8080
 10. To login to Airflow UI, obtain password from the 'standalone_admin_password.txt' file in airflow folder
 11. Login to Airflow UI, click on Admin at the top center, select Variables and saved the API_ID and API_KEY. click on Admin again, select Connections and supply the correct PostgreSQL credentials and save.
-Note: when running PostgreSQL through Docker, the host should be 'host.docker.internal' and not 'localhost'
-12. Now click on the dag and trigger it manually.
+12. Note: when running PostgreSQL through Docker, the host should be 'host.docker.internal' and not 'localhost'
+13. Now click on the dag and trigger it manually.
 
 
 
