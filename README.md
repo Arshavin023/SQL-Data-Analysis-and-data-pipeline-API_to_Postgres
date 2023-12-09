@@ -25,9 +25,9 @@ https://github.com/Arshavin023/Machine-Learning-Web-Application-for-Credit-Risk-
 6. To login to Airflow UI, obtain password from the 'standalone_admin_password.txt' file in airflow folder
 7. Login to Airflow UI, click on Admin at the top center, select Variables and save the API_ID and API_KEY obtained from ```https://www.xe.com/xecurrencydata/```.
 8. Click on Admin again, select Connections, supply the correct PostgreSQL credentials and save.
-#### Note: when running PostgreSQL through Docker, the host should be 'host.docker.internal' and not 'localhost'
 9. Now click on the dag and trigger it manually.
 
+#### Note: when running PostgreSQL through Docker, the host credential on Airflow UI should be 'host.docker.internal' and not 'localhost'
 
 
 
