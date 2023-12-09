@@ -1,8 +1,8 @@
-# car_loan_analysis_and_batch_data_pipeline_for_daily_currency_rates
+## car_loan_analysis_and_batch_data_pipeline_for_daily_currency_rates
 
 ![ERD Data Model](https://github.com/Arshavin023/car_loan_analysis_and_batch_data_pipeline_for_daily_currency_rates/assets/77532336/ecdcdb09-4dbb-4ebb-8077-5bf5158b82b4)
 
-## Workflows
+### Workflows
 ### Question One: SQL Analysis
 1. Create ERD model with lucid.app and obtain create table SQL statements
 2. Download postgreSQL database (latest version), install and create a password
