@@ -7,8 +7,7 @@
 1. Create ERD model with lucid.app and obtain create table SQL statements
 2. Download postgreSQL database (latest version), install and create a password
 3. Launch PgAdmin to access PostgreSQL database and login to server with password created earlier
-4. Create a database named 'autochek'. In the database, create a schema name 'staging'![Uploading ERD Data Model.jpeg…]()
-
+4. Create a database named 'autochek'. In the database, create a schema name 'staging'
 5. Utilize create SQL statements from step one to create tables, ensuring referential integrity
 6. Load CSV files appropriately into created tables
 7. Run SQL analysis files in the 'question_one_sql_analysis' and obtain results
