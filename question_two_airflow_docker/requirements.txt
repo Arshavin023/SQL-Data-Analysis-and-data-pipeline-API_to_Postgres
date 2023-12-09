@@ -1,0 +1,2 @@
+xecd-rates-client
+psycopg2-binary
