@@ -29,6 +29,7 @@ https://github.com/Arshavin023/car_loan_SQL_analysis_and_scheduled_currency_rate
 
 #### Note: when running PostgreSQL through Docker, the host credential on Airflow UI should be 'host.docker.internal' and not 'localhost'
 
+<img width="947" alt="successful_dag_execution" src="https://github.com/Arshavin023/SQL-Data-Analysis-and-data-pipeline-API_to_Postgres/assets/77532336/8736f032-6fc3-46c1-bb2a-6d80afa0654b">
 
 
 
