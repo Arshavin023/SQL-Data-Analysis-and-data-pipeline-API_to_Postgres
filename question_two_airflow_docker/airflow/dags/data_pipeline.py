@@ -18,6 +18,7 @@ import traceback
     },
     description='DAG to extract daily currency rates and load into PostgreSQL',
     schedule_interval='0 1,23 * * *',
+    concurrency=1,
 )
 def daily_extraction_dag():
 
