@@ -6,37 +6,17 @@ truncate staging.Ivory_Coast;
 truncate staging.Kenya;
 truncate staging.Uganda;
 
-select currency_from, currency_to, usd_to_currency_rate, 
-currency_to_usd_rate, max(timestamp) timestamp
-from staging.Ghana
-group by 1,2,3,4
+select currency_from, currency_to, usd_to_currency_rate,timestamp, currency_to_usd_rate from staging.Ghana
 union all
-select currency_from, currency_to, usd_to_currency_rate, 
-currency_to_usd_rate, max(timestamp) timestamp
-from staging.Uganda
-group by 1,2,3,4
+select currency_from, currency_to, usd_to_currency_rate,timestamp, currency_to_usd_rate from staging.Uganda
 union all
-select currency_from, currency_to, usd_to_currency_rate, 
-currency_to_usd_rate, max(timestamp) timestamp
-from staging.Morocco
-group by 1,2,3,4
+select currency_from, currency_to, usd_to_currency_rate,timestamp,currency_to_usd_rate from staging.Morocco
 union all
-select currency_from, currency_to, usd_to_currency_rate, 
-currency_to_usd_rate, max(timestamp) timestamp
-from staging.Nigeria
-group by 1,2,3,4
+select currency_from, currency_to, usd_to_currency_rate,timestamp,currency_to_usd_rate from staging.Nigeria
 union all 
-select currency_from, currency_to, usd_to_currency_rate, 
-currency_to_usd_rate, max(timestamp) timestamp
-from staging.Ivory_Coast
-group by 1,2,3,4
+select currency_from, currency_to, usd_to_currency_rate,timestamp,currency_to_usd_rate from staging.Ivory_Coast
 union all
-select currency_from, currency_to, usd_to_currency_rate, 
-currency_to_usd_rate, max(timestamp) timestamp
-from staging.Egypt
-group by 1,2,3,4
+select currency_from, currency_to, usd_to_currency_rate,timestamp,currency_to_usd_rate from staging.Egypt
 union all 
-select currency_from, currency_to, usd_to_currency_rate, 
-currency_to_usd_rate, max(timestamp) timestamp
-from staging.Kenya
-group by 1,2,3,4
+select currency_from, currency_to, usd_to_currency_rate,timestamp,currency_to_usd_rate from staging.Kenya
+
