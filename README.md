@@ -1,4 +1,4 @@
-## car_loan_analysis_and_batch_data_pipeline_for_daily_currency_rates
+## data pipeline currency rates extraction
 
 ![ERD Data Model](https://github.com/Arshavin023/car_loan_analysis_and_batch_data_pipeline_for_daily_currency_rates/assets/77532336/ecdcdb09-4dbb-4ebb-8077-5bf5158b82b4)
 
