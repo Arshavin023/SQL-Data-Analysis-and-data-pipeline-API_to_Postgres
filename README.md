@@ -6,7 +6,7 @@
 ### STEPS:
 Clone the repository
 ```bash
-https://github.com/Arshavin023/car_loan_SQL_analysis_and_scheduled_currency_rates_extraction_with_Python
+https://github.com/Arshavin023/data-pipeline--currency-rates-extraction
 ```
 ### Question One: SQL Analysis
 1. Download postgreSQL database (latest version), install and create a password
